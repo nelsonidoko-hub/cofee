@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My coffee Store</title>
+    <link rel="stylesheet" href="coffee.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="card-payment">
+
+    <div class="nv-clone">
+        <!-- <div class="logo-p"> -->
+        <a href="index.html">
+            <img class="logo-m" src="picture/my logo.png" alt="=logo">
+        </a>
+        <!-- </div> -->
+        <div class="nav">
+
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="linkwe">
+
+                <a href="index.html">Home</a>
+                <a href="about-us.html">About us</a>
+                <a href="coffee-hub.html"> Coffee Hub </a>
+                <a href="subscription.html"> Create Your Plan </a>
+                <a href="place-an-order.html">Order Your Brew</a>
+                <a href="create-an-account.html">Create Profile</i></a>
+                <a href="add-to-cart.html"> Add to cart</a>
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+
+    </div>
+    <video autoplay muted loop playsinline class="card-pay">
+        <source src="video/47245-451163949_tiny.mp4" type="video/mp4">
+    </video>
+    <!-- The nav bar -->
+
+
+    <div class="proceedex">
+        <div class="credeb">
+            <div class="solid-credit">
+                <i class="fa-solid fa-credit-card"></i>
+            </div>
+            <div>
+                <h2></i>Credit/Debit Card Payment</h2>
+                <p>Enter your card details to complete your payment securely.</p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="accepted-info">
+
+        <div class="available-detail">
+            <div class="available-cards">
+                <h2 class="Acc">Accepted Cards</h2>
+
+                <div class="master-visa">
+                    <img src="picture/akuptsova-a-plastic-card-1647376_640.jpg" alt="master-card" class="master-card">
+                    <img src="picture/falco-cheque-guarantee-card-229830_640.jpg" alt="visa card" class="visa-card">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="cardpayment-form">
+            <div class="form-details">
+                <form id="cardPaymentForm" action="card-payment.html" method="post">
+                    <label for="Card Number">
+                        <p class="ptag"> Card Number</p>
+                        <input type="text" name="card number" id="Card number" placeholder="Card Number" required>
+                    </label>
+                    <label for="Card holder Name">
+                        <p class="ptag"> Card holder Name</p>
+                        <input type="text" name="card holder name" id="Card holder name" placeholder="Card Holder Name"
+                            required>
+                    </label>
+                    <div class="form-div">
+                        <div class="expire-date">
+
+                            <label for="Expiration Date">
+                                <p class="ptag"> Expiry Date</p>
+                                <input type="text" name="expiration date" id="Expiration Date" placeholder="MM/YY"
+                                    required>
+
+                            </label>
+                        </div>
+
+
+                        <div class="cvv">
+                            <label for="CVV">
+                                <p class="ptag"> CVV</p>
+                                <input type="text" name="cvv" id="CVV" placeholder="123" required>
+                            </label>
+                        </div>
+
+                    </div>
+                    <div class="submittyp">
+                        <button type="submit">Make your Payment</button>
+                    </div>
+
+                </form>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="footer-flex">
+        <div class="payment-link">
+            <a href="payment-method.html">Back to payment method</a>
+        </div>
+        <div class="encrypted-payment">
+            <p class="payment-info"><i class="fa-solid fa-shield"></i>our payment information is secure and
+                encrypted</p>
+        </div>
+
+    </div>
+    <script src="js/payment.js"></script>
+    <script src="js/coffee.js"></script>
+    <script src="js/login.js"></script>
+
+</body>
+
+</html>

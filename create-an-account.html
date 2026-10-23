@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+
+    <link rel="stylesheet" href="coffee.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="create-account">
+    <!-- The nav bar -->
+    <div class="nv-clone">
+        <!-- <div class="logo-p"> -->
+        <a href="index.html">
+            <img class="logo-m" src="picture/my logo.png" alt="=logo">
+        </a>
+        <!-- </div> -->
+        <div class="nav">
+
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="linkwe">
+
+                <a href="index.html">Home</a>
+                <a href="about-us.html">About us</a>
+                <a href="coffee-hub.html"> Coffee Hub </a>
+                <a href="subscription.html"> Create Your Plan </a>
+                <a href="place-an-order.html">Order Your Brew</a>
+                <a href="create-an-account.html">Create Profile</i></a>
+                <a href="add-to-cart.html"> Add to cart</a>
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="Enclose">
+        <div class="cloud">
+            <div class="prof">
+                <div class="prof1">
+                    <h1 class="create-H">Create</h1>
+                </div>
+                <div class="prof2">
+                    <h1> Your Account </h1>
+                </div>
+
+            </div>
+            <div class="brw">
+                <p class="join-brew">
+                <marquee direction="left"> Join Brew HAven and enjoy premium coffee, exclusive
+                    offers and more .</marquee>
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="profile">
+            <div class="create-profile1">
+
+                <h1 class="create-Hp">Create Account
+                    
+                </h1>
+                
+
+            </div>
+            <div class="form-profile">
+                <form id="signupForm" action="create-an-account.html" enctype="multipart/form-data">
+                    <div class="form-group1">
+                        <div class="pup-pro">
+                            <p> Upload your picture</p>
+                        </div>
+                        <div class="profile-pic">
+                            <label for="profile-profile" class="pic-circle">
+                                <i class="fa-solid fa-user" id="pic-icon"></i>
+                                <img id="pic-preview" alt="Your profile picture preview" hidden />
+                            </label>
+                            <input type="file" id="profile-picture" name="profile-picture" accept="image/*" />
+                            <label for="profile-picture" class="pic-btn">Choose photo</label>
+                            <small id="pic-msg"></small>
+                         
+                        </div>
+                    </div>
+                    <div class="closure">
+                        <div class="closure1">
+                            <p>First Name</p>
+                            <label for="firstName">
+                                <input class="feast1" type="text" id="firstName" name="name"
+                                    placeholder="Enter your first name" required>
+                            </label>
+                        </div>
+                        <div class="closure2">
+                            <p>Last Name</p>
+                            <label for="lastName">
+                                <input class="feast2" type="text" id="lastName" name="name"
+                                    placeholder="Enter your last name" required>
+                            </label>
+                        </div>
+
+                    </div>
+
+                    <div class="user-takeup">
+                        <p>Username</p>
+                        <label for="userName">
+                            <input type="text" id="userName" name="name" placeholder="Enter your username" required>
+                        </label>
+                    </div>
+                    <div class="age-gender">
+                        <div class="age-group">
+                            <p>Age</p>
+                            <label for="age">
+                                <input type="number" id="age" name="name" placeholder="Enter your age" required>
+                            </label>
+                        </div>
+                        <div class="gender-group">
+                            <p>Gender</p>
+                            <label for="gender">
+                                <select id="gender" name="name" required>
+                                    <option value="">Select your gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </label>
+
+                        </div>
+
+                    </div>
+                    <div class="Register">
+                        <h3 class="Registration">Register Using:</h3>
+
+                        <div class="register1">
+                            <p>Phone Number</p>
+                            <label for="phoneNumber">
+                                <input type="text" id="phoneNumber" name="name" placeholder="Enter your phone number"
+                                    required>
+                            </label>
+                        </div>
+                        <div class="register2">
+                            <p>Email</p>
+                            <label for="email">
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                            </label>
+                        </div>
+
+                    </div>
+                    <div class="pass-wordinfo">
+                        <div class="pass-info1">
+                            <p>Password</p>
+                            <label for="password">
+                                <input type="password" id="password" name="password" placeholder="Create a password"
+                                    required>
+
+                            </label>
+                        </div>
+                        <div class="pass-info2">
+                            <p>RepeatPassword</p>
+                            <label for="repeatPassword">
+                                <input type="password" id="repeatPassword" name="password"
+                                    placeholder="Create a password" required>
+
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="terms">
+                        <label for="terms">I agree to the <a href="#">Terms and Conditions</a> and <a href="#">Privacy
+                                Policy</a>.
+                            <input type="checkbox" id="terms" name="terms" required>
+                        </label>
+                    </div>
+                    <div class="submit-buttons">
+                        <button class="but-box" type="submit">Create Account</button>
+                    </div>
+
+
+                </form>
+
+
+
+            </div>
+            <div class="have-account">
+                <p>Already have an account? <span class="close-span"><a href="login.html">Log in</a></span></p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="pure-berlin">
+        <div class="berlin">
+
+            <div class="berlin-pic">
+                <img src="picture/my logo.png" alt="" class="pix">
+            </div>
+            <div class="elevate-join">
+                <h5 class="elevate">Ready to Elevate Your Coffee Routine ?</h5>
+                <p class="join">Join thousand of coffee lovers enjoying fresh, incredible
+                    coffee-delivered to their door. </p>
+            </div>
+            <div class="my-select">
+                <a class="ament" href="coffee-hub.html">About Our Product </a>
+            </div>
+
+        </div>
+
+
+    </div>
+    
+
+
+    <script src="js/coffee.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/payment.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
